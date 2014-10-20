@@ -12,7 +12,7 @@ public class NimCompvCompDriver  // This is computervcomputer stuff
     int dumbscore = 0;  // Keeps track of dumb computer's score
     boolean turn = false;   // Creates a boolean that keeps track of if it is the human player's turn or not.
     int turntype = 0;
-    NumberComputer smatcomp = new NumberComputer();   // Creates a new NumberComputer named computer. (A new computer player)
+    NumberComputerSmart smatcomp = new NumberComputerSmart();   // Creates a new NumberComputer named computer. (A new computer player)
     NumberComputerdum dumbcomp = new NumberComputerdum();   // Creates a new NumberPlayer named player1. (A new human player)
     
     System.out.println("How many rounds shall we play?");

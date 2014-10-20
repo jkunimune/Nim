@@ -2,7 +2,7 @@
 
 import java.util.Scanner;   // Imports the stuff to take user input
 
-public class NumberGameDriverCompvComp  // This is computervcomputer stuff
+public class NimCompvCompDriver  // This is computervcomputer stuff
 {
   public static void main(String[] args)
   {

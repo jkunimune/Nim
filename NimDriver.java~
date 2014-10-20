@@ -2,12 +2,12 @@
 
 import java.util.Scanner;   // Imports the stuff to take user input
 
-public class NumberGameDriver
+public class NimDriver
 {
   public static void main(String[] args)
   {
     Scanner scan = new Scanner(System.in);   // Creates a new Scanner called scan.
-    int count;   // Creates and int that eeps track of the number of playing elements.
+    int count;   // Creates and int that keeps track of the number of playing elements.
     int rounds;  // Keeps track of how many rounds
     int playerscore = 0;  // Keeps track of score
     boolean turn = false;   // Creates a boolean that keeps track of if it is the human player's turn or not.

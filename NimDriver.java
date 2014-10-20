@@ -12,7 +12,7 @@ public class NimDriver
     int playerscore = 0;  // Keeps track of score
     boolean turn = false;   // Creates a boolean that keeps track of if it is the human player's turn or not.
     int turntype = 0;
-    NumberComputer compter = new NumberComputer();   // Creates a new NumberComputer named compter. (A new computer player)
+    NumberComputerSmart compter = new NumberComputerSmart();   // Creates a new NumberComputer named compter. (A new computer player)
     NumberPlayer player1 = new NumberPlayer();   // Creates a new NumberPlayer named player1. (A new human player)
     
     System.out.println("How many rounds shall we play?");
